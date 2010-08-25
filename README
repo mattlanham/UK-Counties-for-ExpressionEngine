@@ -1,0 +1,12 @@
+This is a simple SQL file that will import all UK counties into your ExpressionEngine categories table, there are 2 SQL variables that you should edit before running this file, they are located on the first 2 lines of the SQL file.
+
+SET @site_id='1'; 
+This should be set to the correct site_id for your ExpressionEngine site, you can check this out quickly by opening the existing exp_categories table.
+
+SET @group_id='1'; 
+This is the Category group you want these new categories to be imported to, create this in ExpressionEngine first then take a note of the ID from the control panel, or again you can look in exp_categories.
+
+If you've got any questions or comments then feel free to email to me@matthewlanham.co.uk, check out my website for future ExpressionEngine related goodies http://matthewlanham.co.uk.
+
+The counties used in this SQL file are based on those from the following website:
+http://blog.acmultimedia.co.uk/2007/09/list-of-uk-counties-in-sql-csv-format/
