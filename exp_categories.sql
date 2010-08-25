@@ -1,8 +1,9 @@
-bplist00Ò_WebMainResource_WebSubresourcesÕ	
-_WebResourceTextEncodingName_WebResourceData_WebResourceMIMEType^WebResourceURL_WebResourceFrameNameUUTF-8O=[<html><head></head><body>SET @site_id='1';
+SET @site_id='1';
 SET @group_id='1';
+
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,0,'England','england',1);
-SET @curr_category=LAST_INSERT_ID();INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Bedfordshire','bedfordshire',2);
+SET @curr_category=LAST_INSERT_ID();
+INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Bedfordshire','bedfordshire',2);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Buckinghamshire','buckinghamshire',3);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Cambridgeshire','cambridgeshire',4);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Cheshire','cheshire',5);
@@ -45,7 +46,8 @@ INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_ti
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Wiltshire','wiltshire',42);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Worcestershire','worcestershire',43);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,0,'Scotland','scotland',44);
-SET @curr_category=LAST_INSERT_ID();INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Aberdeenshire','aberdeenshire',45);
+SET @curr_category=LAST_INSERT_ID();
+INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Aberdeenshire','aberdeenshire',45);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Angus','angus',46);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Argyll','argyll',47);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Ayrshire','ayrshire',48);
@@ -79,7 +81,8 @@ INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_ti
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'West Lothian','west-lothian',76);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Wigtownshire','wigtownshire',77);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,0,'Wales','wales',78);
-SET @curr_category=LAST_INSERT_ID();INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Anglesey','anglesey',79);
+SET @curr_category=LAST_INSERT_ID();
+INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Anglesey','anglesey',79);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Breconshire','breconshire',80);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Caernarvonshire','caernarvonshire',81);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Cardiganshire','cardiganshire',82);
@@ -92,7 +95,3 @@ INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_ti
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Montgomeryshire','montgomeryshire',89);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Pembrokeshire','pembrokeshire',90);
 INSERT INTO `exp_categories` (site_id, group_id, parent_id, cat_name, cat_url_title, cat_order) VALUES (@site_id,@group_id,@curr_category,'Radnorshire','radnorshire',91);
-</body></html>Ytext/html_http://test.dev/index.phpP¡Ô_WebResourceResponseO~        h     (                                    434 656 787 999 <9< === ?>? ??? @@@ CBB CBC DDD GGG KKK MMM PPP QRS UVU VVV WWW ZYZ [\[ ddc ded fee ggg ggh hgh iii jjk lll ooo roo qqq rrr rrs uuu xxx {{{ }|| ||} }}} }~~ €€€  ƒƒƒ „„„ †…… ††† ‡‡‡ ‰‰‰ ‰‰Š ŠŠŠ ŒŒŒ    ‘‘ ‘‘‘ ‘’’ ••• ——— ››› œ›› œœœ œœ œ œœ ŸŸŸ     ¢¢¢ £¢¢ £¢£ £££ ¤¤¤ ¤¥¤ ¤¥¥ ¥¥¥ ¥¥¦ ¦¨¨ ©¨¨ ©©© ª¨ª ¬¬¬ ®®­ ®®® ¯¯° ´³³ ´´´ ¶³µ ¶¶¶ ¶¶· ··· ¸¸¹ ¹º¹ º¹º ¿¿¿ ÁÁÀ ÁÁÁ ÁÂÂ ÀÀÃ ÃÄÃ ÇÅÄ ÅÄÅ ÄÆÆ ÅÆÆ ÆÆÈ ÈÇÈ ÈÈÉ ÉÉÉ ËÌË ËËÌ ÌÎÌ ÏÎÎ ĞÑĞ ĞÑÑ ÓÓÓ ÔÔÔ ÓÕÕ ÕÕÕ ÔÕÖ ÖÕÖ Ö×Ö ××Ö Ö×× ××× ÙÙÙ ÙÚÙ ÛÛÚ ÛÛÛ ÛÜÜ İİÜ ÜÜŞ İŞŞ ŞŞŞ ŞàŞ ßßß Şßà ßàà áâà âââ ããã ãää ääå äåå ååå æææ ååç ççç ééé êéé èêê ëëë ììí îïî ğğï ñññ òññ òòò ôôô ø÷÷ øø÷ ùøú şıı ışı ÿşı ÿÿı şşş ÿÿÿ                                                                                                                                                                                                                                                                                                                                                                 u22t       )
-&     	M¨E_1   - F@K¨8Q›!(+ !¨L“¢(|O"3~=t¨{¨q0ša#6N:*M¨ ¨¨yR£¨}%<Z$'k¨¨u\`¨¤¡¦˜m^4.n¨g;=¨¨¥‘vŠ‰i/5c¨G/XYTb¨sz‹l9E]¨PBŒ f§~€††dDˆVŸ7,W¨¨ˆ”w[† Ch”¨¨¨¨‚—„pA   >o…™œ•–’‚r?     Hesƒ‡…xjI       ŒSJUUJSŒ    ğ  à  À  €                                  €  À  à  ğ  \image/x-iconObplist00Ô56X$versionX$objectsY$archiverT$top † «%&-./01U$nullÛ	
-R$6R$2R$7R$3R$8V$classR$4R$9R$0R$5R$1€€€€€
-€€	€ Ó !"#$[NS.relativeWNS.base€€€ _http://test.dev/favicon.icoÒ'()*Z$classnameX$classesUNSURL¢+,UNSURLXNSObject#A²%cñá"û\image/x-iconP#ïÿÿÿÿÿÿÒ'(23]NSURLResponse¢4,]NSURLResponse_NSKeyedArchiverÑ78_WebResourceResponse€    # - 2 7 C I ` c f i l o v y |  ‚ … ‡ ‰ ‹   ‘ “ • — ™ › ¢ ® ¶ ¸ º ¼ Ú ß ê ó ù ü!"+0>AOadz             9              |_http://test.dev/favicon.ico    1 < Z l ‚ ‘ ¨ ®>>>3>4>6>?>UC×CäEö                           F
